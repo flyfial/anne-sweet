@@ -62,7 +62,7 @@ footer {
     display: flex;
     position: relative;
     height: 581px;
-    margin: 0 auto 83px;
+    margin: 0 auto 85px;
     padding: 0 72px;
 }
 
@@ -459,6 +459,10 @@ cite {
     margin-bottom: 26px;
 }
 
+.article-inner img {
+    display: block;
+}
+
 .article-inner p:nth-of-type(2), .article-inner p:nth-of-type(3), .article-inner p:nth-of-type(5) {
     margin-bottom: 40px;
 }
@@ -606,10 +610,12 @@ cite {
     display: block;
     width: 221px;
     margin-bottom: 35px;
-    padding: 0 0 15px 0;
+    padding: 0 0 14px 0;
     border: none;
     border-bottom: 1px solid #2E2F22;
     border-radius: 0;
+    font-size: 16px;
+    line-height: 22px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -627,13 +633,15 @@ cite {
 
 .leave-comment textarea {
     width: 366px;
-    height: 172px;
+    height: 170px;
     margin: 0;
     padding: 18px 20px;
     border: 1px solid #202117;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.4);
     color: #92938E;
+    font-size: 16px;
+    line-height: 22px;
     font-family: "Open Sans", sans-serif;
     resize: none;
 }
