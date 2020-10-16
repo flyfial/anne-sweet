@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Блог Anne Sweet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container bg1">
+        <div class="header-content">
+          <div class="logo">
+            <a href="#">
+              <img src="img/logo-anne-sweet.svg" width="130" alt="Anne Sweet logo">	
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#статьи">Статьи</a>
+              </li>
+              <li>
+                <a href="#обо-мне">Обо мне</a>
+              </li>
+              <li>
+                <a href="#портфолио">Портфолио</a>
+              </li>
+              <li>
+                <a href="#написать-мне">Написать мне</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="wrapper">
+          <h2 id="статьи">Все статьи</h2>
+          <select name="topic">
+            <option value="" disabled selected hidden>Выбрать тему</option>
+            <option value="all">Все статьи</option>
+            <option value="city">Город</option>
+            <option value="books">Книги</option>
+            <option value="travel">Путешествия</option>
+            <option value="recipes">Рецепты</option>
+            <option value="photography">Фотографии</option>
+          </select>
+        </div>
+        <section>
+          <div class="regular-articles">
+            <article class="regular blog-entry" data-category="travel">
+              <a href="inner.html"><img src="img/article1.png" width="387" height="268" alt="Берлин в августе"></a>
+              <h4><a href="inner.html">Путешествие в Берлин в августе</a></h4>
+              <p><a href="inner.html">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</a></p>
+              <div class="tags">
+                <span>Теги: путешествия</span>
+                <time datetime="2020-09-29">29.09.2020</time>
+              </div>
+            </article>
+            <article class="regular blog-entry" data-category="city">
+              <a href="inner.html"><img src="img/article2.png" width="387" height="268" alt="Колдбрю в Москве"></a>
+              <h4><a href="inner.html">Где выпить колдбрю в Москве</a></h4>
+              <p><a href="inner.html">Собрала для вас список любимых кофеен,
+где подают лучший летний напиток.</a></p>
+              <div class="tags">
+                <span>Теги: город</span>
+                <time datetime="2020-07-24">24.07.2020</time>
+              </div>
+            </article>
+            <article class="regular blog-entry" data-category="books">
+              <a href="inner.html"><img src="img/article3.png" width="387" height="268" alt="Книжные рекомендации"></a>
+              <h4><a href="inner.html">Прочитано: книжные рекомендации</a></h4>
+              <p><a href="inner.html">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</a></p>
+              <div class="tags">
+                <span>Теги: книги</span>
+                <time datetime="2020-07-15">15.07.2020</time>
+              </div>
+            </article>
+          </div>
+          <div class="promo-articles">
+            <article class="promo promo1 blog-entry" data-category="photography"><a href="inner.html">
+              <div class="promo-wrapper">
+                <h3>Снимки на плёнку</h3>
+                <p>Поделилась с вами весенними фотографиями,
+и секретами удачных снимков.</p>
+                <div class="tags">
+                  <span>Теги: фотографии</span>
+                  <time datetime="2020-06-29">29.06.2020</time>
+                </div>
+              </div>
+            </a></article>
+            <article class="promo promo2 blog-entry" data-category="recipes"><a href="inner.html">
+              <div class="promo-wrapper">
+                <h3>Домашний чизкейк</h3>
+                <p>Что может быть лучше чизкейка с сезонными
+ягодами? Только домашний чизкейк!</p>
+                <div class="tags">
+                  <span>Теги: рецепты</span>
+                  <time datetime="2020-06-24">24.06.2020</time>
+                </div>
+              </div>
+            </a></article>
+          </div>
+        </section>
+        <button type="button" class="show-more invisible-btn">Показать ещё</button>
+      </section>
+      <section class="section2"> 
+        <div class="title">
+          <h2 id="обо-мне">Обо мне</h2>
+        </div>
+        <section class="about-me">
+          <div>
+            <img src="img/anne-sweet.png" width="590" height="693" alt="Anne Sweet">
+          </div>
+          <div class="about-me-wrapper">
+            <p>Всем привет! Меня зовут Аня, и это мой личный блог.
+Здесь ты найдёшь рассказы о моих путешествиях, снимки
+на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+что мне интересно.</p>
+            <p>Я работаю копирайтером, поэтому мой блог — это ещё и моё
+портфолио. Ниже размещены несколько моих лучших
+рабочих текстов. Буду рада новым сотрудничествам!</p>
+            <p>Если вы хотите написать мне — это можно сделать в соцсетях
+или через форму. Всегда приятно услышать обратную связь
+от читателей и познакомиться поближе.</p>
+            <p>Приятного чтения!</p>
+            <cite>Я верю, что каждый раз пробуя новое,
+выходящее за зону моего комфорта,
+я действительно узнаю настояющую
+себя.</cite>
+          </div>
+        </section>
+      </section>
+      <section class="section3">
+        <div class="title">
+          <h2 id="портфолио">Портфолио</h2>
+        </div>
+        <section class="portfolio">
+          <article>
+            <h3>Блог HTML Academy</h3>
+            <h4>«Как учиться продуктивно»</h4>
+            <p>Про основные методы обучения,
+которые помогут быстро и надолго
+запомнить информацию.</p>
+          </article>
+          <article>
+            <h3>Журнал «LNK»</h3>
+            <h4>«Зачем поцели нужны человеку?
+          И какие они бывают»</h4>
+            <p>Поцелуи — повсеместная ежедневная
+практика. Но зачем люди целуются?
+Какие смысли вкладывают в этот ритуал?
+И где корни этой практики?</p>
+          </article>
+          <article>
+            <h3>Журнал «Т — Л»</h3>
+            <h4>«Советы по эффективной
+          удалённой работе»</h4>
+            <p>Поделилась лайфхаками, которые помогают
+мне работать продуктивно из дома.</p>
+          </article>
+        </section>
+        <button type="button" class="show-more uppercase">Показать ещё</button>
+      </section>
+      <section class="section4"> 
+        <div class="title">
+          <h2 id="написать-мне">Написать мне</h2>
+        </div>
+        <form class="contact-me" method="GET">
+          <div class="form-content">
+            <div class="contact-info">
+              <div class="left">
+                <label for="your-name">Ваше имя</label>
+                <input required type="text" name="your-name" id="your-name" placeholder="Иван Иванов">
+              </div>
+              <div class="right">
+                <label for="email">Email</label>
+                <input required type="email" name="email" id="email" placeholder="google@gmail.com">
+              </div>
+            </div>
+            <div class="text-area">
+              <label for="message">Сообщение</label>
+              <textarea id="message" required placeholder="Напишите здесь ваше сообщение."></textarea>
+            </div>
+            <button type="submit" class="submit uppercase send-btn">ОТПРАВИТЬ</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="check">
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://vk.com/login">ВК</a>
+          </li>
+          <li>
+            <a href="https://web.telegram.org/">Телеграм</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/">Инстаграм</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">Твиттер</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </footer>
+    <script src="js/filter.js"></script>
+    <script src="js/counter.js"></script>
+  </body>
+</html>
