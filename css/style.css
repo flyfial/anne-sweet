@@ -41,7 +41,7 @@ h5 {
 }
 
 header {
-    width: auto;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-    width: auto;
+    min-width: 1200px;
     background: #D7D1C9;
     height: 181px;
 }
